@@ -55,6 +55,8 @@ public class GuestBook extends HttpServlet
 			vo.setNo(Long.parseLong(no));
 			vo.setPwd(password);
 			
+			System.out.println(vo.getNo() + " : " + vo.getPwd());
+			
 			GuestbookDAO dao = new GuestbookDAO();
 			dao.delete(vo);
 			
