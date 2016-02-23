@@ -14,6 +14,10 @@ import javax.servlet.http.HttpServletResponse;
 import com.bit.guestbook.dao.GuestbookDAO;
 import com.bit.guestbook.vo.GuestbookVO;
 
+//
+//guestBook test
+//
+
 @WebServlet("/gb")
 public class GuestBook extends HttpServlet 
 {
